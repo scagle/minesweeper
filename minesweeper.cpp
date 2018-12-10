@@ -1,12 +1,12 @@
-#define WIDTH 30
-#define HEIGHT 20 
+#define WIDTH 80
+#define HEIGHT 40 
 
 #define HIDDEN '#'
 #define BOMB 'X'
 #define CURSOR '0'
 #define FLAG 'F'
 
-#define BOMBS 25 
+#define BOMBS 300 
 
 #include <stdlib.h>
 #include <time.h>
@@ -345,7 +345,7 @@ WINDOW* make_description()
     return descriptionWindow;
 }
 
-int init()
+void init()
 {
     // A bunch of initialization for ncurses
     initscr();          // initializes stdscr

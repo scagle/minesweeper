@@ -5,6 +5,11 @@ NAME
 
     minesweeper - An attempt to recreate the classic minesweeper game in the terminal
 
+EXAMPLE
+    (NOTE: You must link the ncurses library when compiling)
+                                              vvv
+    g++ -o minesweeper.out minesweeper.cpp -lncurses
+
 DEPENDENCIES
 
     C++
