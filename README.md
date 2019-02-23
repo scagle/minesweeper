@@ -1,5 +1,6 @@
 # minesweeper
-minesweeper - An attempt to recreate the classic minesweeper game in the terminal
+minesweeper - An attempt to recreate the classic minesweeper game in the terminal with C++
+* (Made for a class assignment in early 2017)
 
 ## DESCRIPTION
 
@@ -16,7 +17,7 @@ g++ -o minesweeper.out minesweeper.cpp -lncurses
 ### DEPENDENCIES
 * C++
 * This requires the ncurses library to render the game in the terminal
-* Supported for Linux, will probably work for others
+* Supported for Ubuntu Linux, will probably work for others
 
 ### CONTROLS
 ```
